@@ -1,5 +1,16 @@
-function App() {
-  return <h1>Hellooo</h1>
-}
+import { Post } from './post'
 
-export default App
+export function App() {
+  return (
+    //nao podemos repetir componentes sem ter algo envolvendo eles
+    //nesse caso optamos pela div
+    <div>
+      <Post />
+      <Post />
+      <Post />
+      <Post />
+      <Post />
+      <Post />
+    </div>
+  )
+}

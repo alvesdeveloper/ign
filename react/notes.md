@@ -27,3 +27,8 @@
 
 - DOM (Document Object Model)
   - É a representação do nosso html através do javascript
+
+- COMPONENTES
+  - Parte da interface da aplicação que pode ser repetida, inclusive com dados diferentes.
+  - Identificamos através de uma função que retorna html
+  - Precisam ter a extensão `jsx` ou `tsx` (arquivos que contem html)
